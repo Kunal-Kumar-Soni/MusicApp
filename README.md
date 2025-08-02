@@ -73,10 +73,9 @@ npm run dev
 ## ⚙️ Folder Structure
 
 echoPlay/
-│
-├── public/ # Static assets (favicon, meta)
+├── public/ # Static assets
 ├── src/
-│ ├── assets/ # App images and icons
+│ ├── api/ # API service utilities (Axios, Fetch wrappers)
 │ ├── components/ # Reusable UI components
 │ ├── context/ # Global state using Context API
 │ ├── hooks/ # Custom React hooks
@@ -84,11 +83,10 @@ echoPlay/
 │ ├── utils/ # Utility/helper functions
 │ ├── App.jsx # Root component
 │ └── main.jsx # React entry point
-└── tailwind.config.js # Tailwind CSS config
 
 ## 🤝 Acknowledgements
 
-- Inspired by real-world music apps like Spotify and JioSaavan.
+- Inspired by real-world music app like Spotify and JioSaavan.
 
 ---
 
