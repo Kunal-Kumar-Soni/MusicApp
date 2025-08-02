@@ -95,29 +95,29 @@ function MusicPlayer() {
         </div>
 
         {/* Controls - Adaptive for all screens */}
-        <div className="flex flex-1 justify-center items-center gap-3 xs:gap-4 sm:gap-6 max-w-[140px] xs:max-w-[160px] sm:max-w-[200px]">
+        <div className="flex flex-1 justify-center items-center gap-5 xs:gap-4 sm:gap-6 max-w-[140px] xs:max-w-[160px] sm:max-w-[200px]">
           <SkipBack
             onClick={playPreviousSong}
-            className="w-4 xs:w-5 sm:w-6 h-4 xs:h-5 sm:h-6 hover:text-indigo-500 dark:hover:text-indigo-400 cursor-pointer shrink-0"
+            className="w-5 sm:w-6 lg:w-7 h-5 sm:h-6 lg:h-7 hover:text-indigo-500 dark:hover:text-indigo-400 cursor-pointer shrink-0"
           />
           {audioUrl ? (
             isPlaying ? (
               <Pause
                 onClick={handleTogglePlay}
-                className="w-6 xs:w-7 sm:w-8 h-6 xs:h-7 sm:h-8 hover:text-indigo-500 dark:hover:text-indigo-400 cursor-pointer shrink-0"
+                className="w-7 sm:w-8 lg:w-9 h-7 sm:h-8 lg:h-9 hover:text-indigo-500 dark:hover:text-indigo-400 cursor-pointer shrink-0"
               />
             ) : (
               <Play
                 onClick={handleTogglePlay}
-                className="w-6 xs:w-7 sm:w-8 h-6 xs:h-7 sm:h-8 hover:text-indigo-500 dark:hover:text-indigo-400 cursor-pointer shrink-0"
+                className="w-7 sm:w-8 lg:w-9 h-7 sm:h-8 lg:h-9 hover:text-indigo-500 dark:hover:text-indigo-400 cursor-pointer shrink-0"
               />
             )
           ) : (
-            <Play className="w-6 xs:w-7 sm:w-8 h-6 xs:h-7 sm:h-8 text-gray-400 dark:text-gray-600 cursor-pointer shrink-0" />
+            <Play className="w-7 sm:w-8 lg:w-9 h-7 sm:h-8 lg:h-9 text-gray-400 dark:text-gray-600 cursor-pointer shrink-0" />
           )}
           <SkipForward
             onClick={playNextSong}
-            className="w-4 xs:w-5 sm:w-6 h-4 xs:h-5 sm:h-6 hover:text-indigo-500 dark:hover:text-indigo-400 cursor-pointer shrink-0"
+            className="w-5 sm:w-6 lg:w-7 h-5 sm:h-6 lg:h-7 hover:text-indigo-500 dark:hover:text-indigo-400 cursor-pointer shrink-0"
           />
         </div>
 
