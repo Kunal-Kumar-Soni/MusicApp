@@ -72,6 +72,8 @@ npm run dev
 
 ## ⚙️ Folder Structure
 
+```
+
 echoPlay/
 ├── public/ # Static assets
 ├── src/
@@ -84,15 +86,11 @@ echoPlay/
 │ ├── App.jsx # Root component
 │ └── main.jsx # React entry point
 
+```
+
 ## 🤝 Acknowledgements
 
 - Inspired by real-world music app like Spotify and JioSaavan.
-
----
-
-## 📃 License
-
-MIT License
 
 ---
 
