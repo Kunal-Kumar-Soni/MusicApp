@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "name": "Arijit Singh",
+    "image": "/artists/Arijit_Singh.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Shreya Ghoshal",
+    "image": "/artists/Shreya_Ghoshal.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Yo Yo Honey Singh",
+    "image": "/artists/Yo_Yo_Honey_Singh.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Badshah",
+    "image": "/artists/Badshah.jpg"
+  },
+  {
+    "id": 5,
+    "name": "AP Dhillon",
+    "image": "/artists/AP_Dhillon.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Shubh",
+    "image": "/artists/Shubh.jpg"
+  },
+  {
+    "id": 7,
+    "name": "KK",
+    "image": "/artists/KK.jpg"
+  }
+]
