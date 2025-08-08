@@ -116,7 +116,7 @@ function SearchSongCard({ song, index, isOpen, setMenuOpenIndex, songs }) {
                   e.stopPropagation();
                   handleFavorite(song);
                 }}
-                className="block hover:bg-gray-100 dark:hover:bg-gray-700 px-3 py-2 w-full text-gray-700 sm:text-[15px] smallest:text-[12px] dark:text-gray-200 text-sm text-center"
+                className="block hover:bg-gray-100 dark:hover:bg-gray-700 px-3 py-2 w-full text-gray-700 sm:text-[15px] smallest:text-[12px] dark:text-gray-200 lg:text-sm text-center"
               >
                 Add to Favorite
               </button>
