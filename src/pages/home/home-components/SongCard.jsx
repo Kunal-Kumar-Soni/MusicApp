@@ -94,7 +94,7 @@ function SongCard({ song, index, isOpen, setMenuOpenIndex, onPlay }) {
             {/* Add to Favorite Button */}
             <button
               onClick={() => handleFavorite(song)}
-              className="block hover:bg-gray-100 dark:hover:bg-gray-700 px-3 py-2 w-full text-gray-700 sm:text-[15px] smallest:text-[12px] dark:text-gray-200 text-sm text-center cursor-pointer"
+              className="block hover:bg-gray-100 dark:hover:bg-gray-700 px-3 py-2 w-full text-gray-700 sm:text-[15px] smallest:text-[12px] dark:text-gray-200 lg:text-sm text-center cursor-pointer"
             >
               Add to Favorite
             </button>
