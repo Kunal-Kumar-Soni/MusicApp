@@ -1,12 +1,9 @@
 // src/api/api.js
 import axios from "axios";
 
-// Base URL
-const BASE_URL = "https://saavn.dev/api";
-
 export async function getData(query) {
   try {
-    const response = await axios.get(`${BASE_URL}/search/songs`, {
+    const response = await axios.get("https://saavn.dev/api/search/songs", {
       params: { query },
     });
     return response.data;
@@ -18,7 +15,7 @@ export async function getData(query) {
 
 export async function getSongsByArtist(query, page = 1) {
   try {
-    const response = await axios.get(`https://saavn.dev/api/search/songs`, {
+    const response = await axios.get("https://saavn.dev/api/search/songs", {
       params: { query, page },
     });
     return response.data;
